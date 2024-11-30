@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+        input[type="image"]:hover {
+            transform: scale(1.1);
+            transition: transform 0.2s;
+            opacity: 70%;
+            filter: grayscale(50%);
+        }
+        input[type="image"]{
+            padding-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="hidden" name="user_id" value="123">
+        <label for="nama">Nama :</label>
+        <input type="text" id="nama" name="nama"> <br>
+        <input type="image" src="https://pngimg.com/uploads/buttons/buttons_PNG89.png" alt="tombol-simpan" width="10%" height="auto">
+    </form>
+</body>
+</html>
